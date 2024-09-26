@@ -1,10 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Avatar from '../assets/images/avatar3.jpg'
+import Avatar from '../assets/images/avatar8.jpg'
 
 const PostAuthor = () => {
   return (
-    <Link to={`/posts/users/appu`}>
+    <Link to={`/posts/users/152326`} className='post__author'>
             <div className="post__author-avatar">
                 <img src={Avatar} alt="" />
             </div>
