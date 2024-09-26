@@ -2,7 +2,7 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 
 const Footer = () => {
-  const getCurrentYear = () => {
+  const Year = () => {
     return new Date().getFullYear();
   };
   return (
@@ -18,7 +18,9 @@ const Footer = () => {
         <li><Link to="/posts/categories/:Weather">Weather</Link></li>
       </ul>
       <div className="footer__copyright">
-      <small>All Rights Reserved &copy; {getCurrentYear()}, Varghese Sabu</small>
+      <small>All Rights Reserved &copy; {Year()},</small> 
+      <small>Website Developed by Varghese Sabu</small>
+
     </div>
     </footer>
   )

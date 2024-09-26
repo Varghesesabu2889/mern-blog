@@ -110,6 +110,46 @@ section{
     color: var(--color-white);
     background: var(--color-gray-900);
 }
+
+.center{
+    text-align: center;
+    padding-top:5rem ;
+    margin-inline: center;
+    display: block;
+    width: 100%;
+}
+.error-page h2{
+    margin-top: 3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* =====================================NAVBAR===================================== */
 nav{
     width: 100vw; 
@@ -180,3 +220,28 @@ margin-bottom: 4rem;
     color: var(--color-white);
     font-weight: 300;
 }
+
+
+
+
+
+
+
+/* =========================================HOME================================= */
+/* =========================================POSTS================================= */
+.posts__container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4rem;
+}
+.post{
+    background: var(--color-white);
+    padding: 1rem;
+    border-radius: var(--radius-4);
+    transition: var(--transition);
+    cursor: default;
+}
+.post:hover{
+    box-shadow: 0 1.5rem 2rem rgba(0, 0,0,0.1)
+}
+
