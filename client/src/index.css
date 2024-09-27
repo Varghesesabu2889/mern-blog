@@ -170,7 +170,6 @@ nav{
     justify-content: space-between;
     align-items: center;
     height: 100%;
-
 }
 .nav__logo{
     width: 3rem;
@@ -664,7 +663,6 @@ animation-delay: 600ms;
     font-size: 1.5rem;
     cursor: pointer;
 }
-}
 
 .posts__container{
     grid-template-columns: 1fr;
@@ -696,9 +694,6 @@ animation-delay: 600ms;
     grid-template-columns: 1fr;
     gap: 1.2rem;
 }
-
-
-
 .dashboard__post{
     flex-direction: column;
     }
@@ -708,7 +703,7 @@ animation-delay: 600ms;
 .dashboard__post-thumbnail{
     width: 5rem;
 }
-
+}
 
 
 

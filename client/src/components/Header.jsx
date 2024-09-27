@@ -22,9 +22,9 @@ const Header = () => {
           <img src={logo} alt="Navbar logo"  onClick={closeNavHandler}/>
         </Link>
         {isNavShowing && <ul className={`nav__menu ${isNavShowing ? 'show' : 'hide'}`}>
-          <li><Link to="/profile/252" onClick={closeNavHandler}>David John</Link></li>
-          <li><Link to="/create" onClick={closeNavHandler}>Create Post</Link></li>
-          <li><Link to="/authors" onClick={closeNavHandler}>Authors</Link></li>
+          <li><Link to="/profile/252" onClick={closeNavHandler}>David John</Link></li>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <li><Link to="/create" onClick={closeNavHandler}>Create Post</Link></li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <li><Link to="/authors" onClick={closeNavHandler}>Authors</Link></li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           <li><Link to="/logout" onClick={closeNavHandler}>Logout</Link></li>
         </ul>}
         <button className="nav__toggle-btn" onClick={() => setIsNavShowing(!isNavShowing)}>
