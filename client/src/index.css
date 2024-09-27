@@ -531,6 +531,17 @@ color: var(--color-primary);
 
 
 
+.thumbnail-preview {
+    margin-top: 10px;
+    text-align: center;
+  }
+  .thumbnail-preview img {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+
+
 
 
 
